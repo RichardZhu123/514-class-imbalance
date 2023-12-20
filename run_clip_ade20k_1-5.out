@@ -1,0 +1,30 @@
+epoch: 0/10 -- train loss: 0.5099315390227332, val loss: 0.25063824080503905 -- train fbeta_score: 0.2281562598553013, val fbeta_score: 0.335129683913906
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 1/10 -- train loss: 0.2006043153149741, val loss: 0.14277434807557327 -- train fbeta_score: 0.4139517815538346, val fbeta_score: 0.4585881526342873
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 2/10 -- train loss: 0.13979587869511712, val loss: 0.11436296082459964 -- train fbeta_score: 0.5444261013765693, val fbeta_score: 0.605190891818074
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 3/10 -- train loss: 0.11528997460291499, val loss: 0.09678752677371869 -- train fbeta_score: 0.6293506035684755, val fbeta_score: 0.6852585797411234
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 4/10 -- train loss: 0.09852935116560686, val loss: 0.08321542851626873 -- train fbeta_score: 0.6906699918595759, val fbeta_score: 0.7284764279776748
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 5/10 -- train loss: 0.08491919807616681, val loss: 0.072776241801106 -- train fbeta_score: 0.734933322231936, val fbeta_score: 0.7643094644341527
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 6/10 -- train loss: 0.07479114537792546, val loss: 0.06448170313468346 -- train fbeta_score: 0.7705326291875562, val fbeta_score: 0.788475240470253
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 7/10 -- train loss: 0.07033343078006828, val loss: 0.06379090836988045 -- train fbeta_score: 0.7914349745559937, val fbeta_score: 0.7904940030875193
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 8/10 -- train loss: 0.0694067615956541, val loss: 0.06310672499239445 -- train fbeta_score: 0.7921513616062136, val fbeta_score: 0.792720579503622
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
+epoch: 9/10 -- train loss: 0.06842346563343964, val loss: 0.06240773473221522 -- train fbeta_score: 0.7960103361939256, val fbeta_score: 0.7981237382733641
+Saved model to ade20k_clip_loss_reweight_1.5.pt
+Saved results to ade20k_clip_loss_reweight_1.5.results
