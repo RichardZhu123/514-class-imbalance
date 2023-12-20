@@ -1,4 +1,7 @@
 ADE20K/
 .ipynb_checkpoints/
-.pt
-.results
+*.pt
+*.results
+*.sh
+*.out
+*.err
