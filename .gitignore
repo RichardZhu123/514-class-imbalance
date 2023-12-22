@@ -5,3 +5,4 @@ ADE20K/
 *.sh
 *.out
 *.err
+*.csv

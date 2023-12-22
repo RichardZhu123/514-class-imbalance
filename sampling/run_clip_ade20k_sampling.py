@@ -292,7 +292,7 @@ def train_model(model, optimizer, loss_fn, dl_train, dl_val, epochs, filename, l
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--target_elems", type=float, help="Number of elems to sample from each class")
+    parser.add_argument("--target_elems", type=int, help="Number of elems to sample from each class")
     args = parser.parse_args()
     target_elems = args.target_elems
     
@@ -300,7 +300,7 @@ if __name__ == '__main__':
     device = "cuda" if torch.cuda.is_available() else "cpu"
     clip_encoder, preprocess = clip.load('ViT-B/32', device)
 
-    ds_dir = '/scratch/gpfs/ryzhu/cos514/ADE20K/ADEChallengeData2016/'
+    ds_dir = '{PUT DIR LOCATION HERE}/ADE20K/ADEChallengeData2016/'
 
     # checking how much training and validation data we have
     train_paths = [f"{ds_dir}/images/training", ]
@@ -361,9 +361,9 @@ if __name__ == '__main__':
   
     # Reset index to get a clean dataframe
     df_sampled.reset_index(drop=True, inplace=True)
-    
+    df_train = df_sampled
 
-    df_train.to_csv(f"{target_elems}_sampled_aed20k.csv", index=False)
+    df_train.to_csv(f"{target_elems}_sampled_ade20k.csv", index=False)
 
     df_val = load_split(val_paths, df_classes)
 
