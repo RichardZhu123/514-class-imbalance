@@ -1,1 +1,2 @@
-readme
+This folder contains the code for the Planet dataset.
+One file is for training with the CLIP encoder and the other is for training with ResNet-18.
